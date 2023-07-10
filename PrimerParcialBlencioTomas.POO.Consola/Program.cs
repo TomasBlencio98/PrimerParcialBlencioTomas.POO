@@ -12,6 +12,7 @@ namespace PrimerParcialBlencioTomas.POO.Consola
         static void Main(string[] args)
         {
             //PUNTO 1
+            //Modifico algo
             Console.WriteLine("PUNTO 1");
             Cono cono = new Cono(17, 5);
             Console.WriteLine($"Generatriz: {cono.GetGeneratriz():n2}");
